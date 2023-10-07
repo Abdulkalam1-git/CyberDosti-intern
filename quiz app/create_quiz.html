@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Own Quiz</title>
+    <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Create Your Own Quiz</h1>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <h2>Add a New Quiz Question</h2>
+            <form id="quizForm">
+                <label for="newQuestion">New Question:</label>
+                <input type="text" id="newQuestion" required>
+
+                <label for="newOptionA">Option A:</label>
+                <input type="text" id="newOptionA" required>
+
+                <label for="newOptionB">Option B:</label>
+                <input type="text" id="newOptionB" required>
+
+                <label for="newOptionC">Option C:</label>
+                <input type="text" id="newOptionC" required>
+
+                <label for="newOptionD">Option D:</label>
+                <input type="text" id="newOptionD" required>
+
+                <label for="newCorrectAnswer">Correct Answer (a, b, c, or d):</label>
+                <input type="text" id="newCorrectAnswer" required>
+
+                <button type="submit">submit</button>
+            </form>
+            <p id="successMessage"></p>
+        </div>
+        <div class="container">
+            <h2>Add a New Quiz Question</h2>
+            <form id="quizForm">
+             
+                <button type="submit">Click</button>
+            </form>
+            <p id="successMessage"></p> 
+        </div>
+        
+    </section>
+
+    <script src="js/create_quiz.js"></script>
+</body>
+
+</html>
